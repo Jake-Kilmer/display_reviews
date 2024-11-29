@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta name="description" content="Display javascript objects of reviews using HTML, CSS and Javascript">
+    <meta name="keywords" content="Reviews, Business, HTML, CSS, Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css?t=202411">
+    <title>Display Reviews</title>
+</head>
+<body class="home">
+    <div class="innerCont">
+        <h1><span class="ownerName"></span> Business Reviews</h1>
+        <section id="mainControls">
+            <div id="controlBox">
+                <form id="selectReviewsForm" method="GET" action="reviews.html">
+                <label for="all"><h2>all</h2></label>
+                <input type="checkbox" id="all" name="category" value="all">
+                <label for="five_star"><h2>5 star</h2></label>
+                <input type="checkbox" id="five_star" name="category" value="five_star">
+                <label for="other"><h2>other</h2></label>
+                <input type="checkbox" id="other" name="category" value="other">
+                <input id="reviewsSubmit" type="submit" value="display">
+                </form>
+            </div>
+        </section>
+    </div>
+    <script type="module" src="js/script.js?t=202410"></script>
+</body>
+</html>

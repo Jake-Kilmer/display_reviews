@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta name="description" content="Display javascript objects of reviews using HTML, CSS and Javascript">
+    <meta name="keywords" content="Reviews, Business, HTML, CSS, Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css?t=202411">
+    <title>Display Reviews</title>
+</head>
+<body>
+    <h1 id="reviewsHeadline">Client Reviews</h1>
+    <section id="mainControls">
+        <div id="controlBox">
+            <form id="reviewForm">
+            <label for="reviews"><h2>review</h2></label>
+            <input type="checkbox" id="reviews" name="options" value="reviews" checked>
+            <label for="author"><h2>author</h2></label>
+            <input type="checkbox" id="author" name="options" value="author" checked>
+            <label for="date"><h2>date</h2></label>
+            <input type="checkbox" id="date" name="options" value="date" checked>
+            <input id="reviewsSubmit" type="submit" value="display">
+            </form>
+        </div>
+        <a class="backToHome" href="/display_reviews">back</a>
+        <p class="disclaimer">*All reviews are fictional and made up for fun and the sake of the mini project.</p>
+    </section>
+    <section id="mainContent"></section>
+    <script type="module" src="js/submit.js?t=202409"></script>
+</body>
+</html>
