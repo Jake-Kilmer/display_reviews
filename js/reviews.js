@@ -37,7 +37,7 @@ export const reviews = [
       "name": "Karen"
     },
     "reviewBody": "You guys are the juciest!",
-    "datePublished": "Posted Nov 1, 2024"
+    "datePublished": "Nov 1, 2024"
   },
   {
     "@context": "https://schema.org/",
@@ -57,7 +57,7 @@ export const reviews = [
       "name": "Carl Weathers"
     },
     "reviewBody": "I couldn't believe what I bit into, this burger was a predator!",
-    "datePublished": "Posted Oct 3, 2020"
+    "datePublished": "Oct 3, 2020"
   },
   {
     "@context": "https://schema.org/",
@@ -77,7 +77,7 @@ export const reviews = [
       "name": "M.C Hammer"
     },
     "reviewBody": "Fuck Vanilla Ice, Jimbos burgers ...",
-    "datePublished": "Posted May 5, 2022"
+    "datePublished": "May 5, 2022"
   },
   {
     "@context": "https://schema.org/",
@@ -97,7 +97,7 @@ export const reviews = [
       "name": "Taylor Swift"
     },
     "reviewBody": "Not to shabby, I'd come back",
-    "datePublished": "Posted Jul 4, 2023"
+    "datePublished": "Jul 4, 2023"
   },
   {
     "@context": "https://schema.org/",
@@ -117,7 +117,7 @@ export const reviews = [
       "name": "Donald J. Trump"
     },
     "reviewBody": "Jimbos is just NASTY!! I mean come on, I worked at McDonald's for 5 minutes and I can tell you their product is far superior. Mc Donald's is the all american diet and there is nothing better than establishing a strong connection with a true food company!",
-    "datePublished": "Posted Nov 5, 2024"
+    "datePublished": "Nov 5, 2024"
   },
   {
     "@context": "https://schema.org/",
@@ -137,7 +137,7 @@ export const reviews = [
       "name": "Oscar the grouch"
     },
     "reviewBody": "Stop throwing your trash in my home!",
-    "datePublished": "Posted Aug 8, 2021"
+    "datePublished": "Aug 8, 2021"
   },
   {
     "@context": "https://schema.org/",
@@ -157,7 +157,7 @@ export const reviews = [
       "name": "Elmo"
     },
     "reviewBody": "Why does Jimbo's not love Elmo!? Hehehe.",
-    "datePublished": "Posted Jan 3, 2019"
+    "datePublished": "Jan 3, 2019"
   },
   {
     "@context": "https://schema.org/",
@@ -177,7 +177,7 @@ export const reviews = [
       "name": "Ted Nugent"
     },
     "reviewBody": "There aren't any shot gun led balls in my meat? This isn't fresh",
-    "datePublished": "Posted Sep 6, 2022"
+    "datePublished": "Sep 6, 2022"
   },
   {
     "@context": "https://schema.org/",
@@ -197,6 +197,6 @@ export const reviews = [
       "name": "J.D Vance"
     },
     "reviewBody": "I heart Jimbo's! Support local burger deportation.",
-    "datePublished": "Posted Dec 25, 2023"
+    "datePublished": "Dec 25, 2023"
   }
 ];
