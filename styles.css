@@ -40,7 +40,7 @@ h2, h3, h4 {
     padding: 0;
 }
 h2 {
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
     font-weight: normal;
 }
@@ -51,7 +51,7 @@ p {
 #mainControls {
     margin: 0;
 }
-#mainContent {padding: 10px; margin: 60px auto 0;}
+#mainContent {padding: 10px; margin: 30px auto 0;}
 .disclaimer {
     text-align: center;
     padding: 20px 0 0 0;
@@ -107,9 +107,19 @@ p {
     position: relative;
     display: inline-block;
 }
-#reviewForm #reviewsSubmit, #selectReviewsForm #reviewsSubmit {
+#reviewForm #reviewsSubmit {
     display: block;
+    margin: 10px auto 0;
+}
+#selectReviewsForm #reviewsSubmit {
     margin: 30px auto 0;
+}
+.formBox {
+    margin: 0 0 10px 0;
+}
+.formBox3, .formBox4, .formBox5 {
+    display: inline-block;
+    vertical-align: middle;
 }
 #reviewsSubmit {
     display: block;
@@ -147,6 +157,10 @@ p {
 @media screen and (min-width: 500px) {
     #reviewForm #reviewsSubmit, #selectReviewsForm #reviewsSubmit {
         display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
+    .formBox3, .formBox4, .formBox5 {
         margin: 0;
     }
 }
@@ -163,6 +177,16 @@ p {
 @media screen and (min-width: 800px) {
     .reviewBox {
         width: calc(33% - 18px);
+    }
+}
+@media screen and (min-width: 1000px) {
+    .formBox1, .formBox2 {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
+    .backToHome {
+        margin: 20px auto 0;
     }
 }
 .checked {

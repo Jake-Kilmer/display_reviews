@@ -4,7 +4,7 @@
     <meta name="keywords" content="Reviews, Business, HTML, CSS, Javascript">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css?t=202411">
+    <link rel="stylesheet" href="styles.css?t=20241112">
     <title>Display Reviews</title>
 </head>
 <body>
@@ -12,17 +12,27 @@
     <section id="mainControls">
         <div id="controlBox">
             <form id="reviewForm">
-            <label for="descending_by_date"><h2>descending by date</h2></label>
-            <input type="checkbox" id="descending_date" name="options" value="descending_by_date">
-            <label for="ascending_by_date"><h2>ascending by date</h2></label>
-            <input type="checkbox" id="ascending_date" name="options" value="ascending_by_date">
-            <label for="reviews"><h2>review</h2></label>
-            <input type="checkbox" id="reviews" name="options" value="reviews" checked>
-            <label for="author"><h2>author</h2></label>
-            <input type="checkbox" id="author" name="options" value="author" checked>
-            <label for="date"><h2>date</h2></label>
-            <input type="checkbox" id="date" name="options" value="date" checked>
-            <input id="reviewsSubmit" type="submit" value="display">
+                <div class="formBox formBox1">
+                    <label for="descending_by_date"><h2>sort by date(desc)</h2></label>
+                    <input type="checkbox" id="descending_date" name="options" value="descending_by_date">                   
+                </div>
+                <div class="formBox formBox2">
+                    <label for="ascending_by_date"><h2>sort by date(asc)</h2></label>
+                    <input type="checkbox" id="ascending_date" name="options" value="ascending_by_date">                   
+                </div>
+                <div class="formBox formBox3">
+                    <label for="reviews"><h2>review</h2></label>
+                    <input type="checkbox" id="reviews" name="options" value="reviews" checked>                 
+                </div>
+                <div class="formBox formBox4">
+                    <label for="author"><h2>author</h2></label>
+                    <input type="checkbox" id="author" name="options" value="author" checked>                 
+                </div>
+                <div class="formBox formBox5">
+                    <label for="date"><h2>date</h2></label>
+                    <input type="checkbox" id="date" name="options" value="date" checked>
+                </div>
+                <input id="reviewsSubmit" type="submit" value="display">
             </form>
         </div>
         <a class="backToHome" href="/display_reviews">back</a>
